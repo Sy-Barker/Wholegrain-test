@@ -1,0 +1,16 @@
+body {
+  background-image: url(http://localhost:81/wholegrain-frontend/wp-content/uploads/2021/06/windmill-login.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.login h1 a {
+  background-image: url(http://localhost:81/wholegrain-frontend/wp-content/uploads/2021/06/cloud.svg);
+}
+
+.login #backtoblog, .login #nav {
+	font-size: 13px;
+	background: white;
+	padding: 15px;
+	border-left: 4px solid #72aee6;
+}

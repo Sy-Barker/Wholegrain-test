@@ -1,0 +1,196 @@
+/*
+Theme Name: Wholegrain
+Author: Sy Barker
+Author URI: https://sy-barker.co.uk
+Description: This is the WordPress site for the Web Developer role at Wholegrain Digital.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap'); 
+
+body {
+  margin: 0 auto;
+}
+
+.wp-block-columns, .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+}
+
+.wp-block-cover__inner-container {
+  margin: 0 auto !important;
+  width: 100% !important;
+  max-width: 1280px;  
+}
+
+@media only screen and (max-width: 1280px) {
+  
+  .wp-block-columns, .container, .wp-block-cover__inner-container {
+    max-width: 800px !important;
+    padding: 0 10px;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .wp-block-columns, .container, .wp-block-cover__inner-container {
+    max-width: 600px !important;
+  }
+  
+}
+
+
+/* global styles */
+
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+p, a  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+/* header */
+
+.header {
+  background: #00698f;
+  padding: 25px 0;
+}
+
+.header .container {
+  position: relative;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+}
+
+
+/* menu */
+
+
+.menu {
+  float: right;
+}
+
+.toggle-nav {
+    display: none !important;
+}
+
+.toggle-nav {
+  float: right;
+  padding: 10px;
+  display: block !important;
+  color: #fff;
+  text-decoration: none;
+  transition: color linear 0.15s;
+  font-size: 28px;
+}
+
+.toggle-nav:hover, .toggle-nav.active {
+  text-decoration: none;
+  color: #fff;
+} 
+  
+.menu ul {
+  display: none;
+}
+  
+.menu {
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  right: 10px;
+  z-index: 10;
+}
+
+.menu ul {
+  display: none;
+	position: absolute;
+  top: 0%;
+  right: 45px;
+  padding: 15px;
+  background: #fff;
+  width: 200px;
+  text-align: right;
+}
+
+.menu li {
+    display: block;
+    float: none;
+}
+
+.menu li a {
+  color: #00698f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #00698f;
+  text-decoration: none;
+  opacity: .75;
+}
+
+
+/* hero */
+
+
+.hero {
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-weight: 300;
+  font-size: 36px;
+  margin-top: -75px;
+}
+
+
+/* images */
+
+
+.wp-block-image {
+  margin: 0;
+}
+
+.wp-block-image img {
+  width: 100%;
+  height: auto;
+}
